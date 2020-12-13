@@ -1,0 +1,41 @@
+.map{
+	padding: 10em;
+	height: 100px;
+}
+
+p{
+	color: #065c6f;
+}
+
+.about-section {
+  padding: 50px;
+  height: 400px;
+  padding-top: 200px;
+  text-align: left;
+  background-color: #474e5d;
+  color:black;
+  font-weight: bolder;
+  margin-top: 12px;
+  background-image:  url(snowplow.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%  400px;   
+}
+img{
+	height: 300px;
+  width: 320px;
+  margin: 10px;
+	border: 2px solid black;
+}
+
+
+@media screen and (max-width: 600px) {
+  .map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+  }
+}
+
+
+
