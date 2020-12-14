@@ -11,7 +11,7 @@ import { catchError, map, retry } from 'rxjs/operators';
 
 export class AdminService {
 
-  private url = 'https://hmsdata.herokuapp.com/';
+  private url = 'https://hmsdata.herokuapp.com';
   
   constructor(private http: HttpClient) {}
 
