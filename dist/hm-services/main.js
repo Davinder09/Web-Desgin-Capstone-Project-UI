@@ -174,7 +174,7 @@ __webpack_require__.r(__webpack_exports__);
 class AdminService {
     constructor(http) {
         this.http = http;
-        this.url = 'http://localhost:3000';
+        this.url = 'https://hmsdata.herokuapp.com';
     }
     validateLogin(user) {
         return this.http.post(this.url + '/api/users', {
@@ -1379,7 +1379,7 @@ __webpack_require__.r(__webpack_exports__);
 class EmployeeServiceService {
     constructor(http) {
         this.http = http;
-        this.url = 'http://localhost:3000';
+        this.url = 'https://hmsdata.herokuapp.com';
     }
     getEmployee() {
         return this.http.get(this.url + '/api/employee')
@@ -1954,7 +1954,7 @@ __webpack_require__.r(__webpack_exports__);
 class CustomerRequestService {
     constructor(http) {
         this.http = http;
-        this.url = 'http://localhost:3000';
+        this.url = 'https://hmsdata.herokuapp.com';
     }
     customerRequest(request) {
         return this.http.post(this.url + '/api/service_request', {
@@ -2073,7 +2073,7 @@ AboutusComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineC
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](27, "iframe", 11);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } }, styles: [".map[_ngcontent-%COMP%]{\r\n\tpadding: 10em;\r\n\theight: 100px;\r\n}\r\n\r\np[_ngcontent-%COMP%]{\r\n\tcolor: #065c6f;\r\n}\r\n\r\n.about-section[_ngcontent-%COMP%] {\r\n  padding: 50px;\r\n  height: 400px;\r\n  padding-top: 200px;\r\n  text-align: left;\r\n  background-color: #474e5d;\r\n  color:black;\r\n  font-weight: bolder;\r\n  margin-top: 12px;\r\n  background-image:  url(snowplow.jpg);\r\n  background-repeat: no-repeat;\r\n  background-size: 100%  400px;   \r\n}\r\n\r\nimg[_ngcontent-%COMP%]{\r\n\theight: 300px;\r\n  width: 320px;\r\n  margin: 10px;\r\n\tborder: 2px solid black;\r\n}\r\n\r\n@media screen and (max-width: 600px) {\r\n  .map-responsive[_ngcontent-%COMP%]{\r\n    overflow:hidden;\r\n    padding-bottom:56.25%;\r\n    position:relative;\r\n    height:0;\r\n  }\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYWJvdXR1cy9hYm91dHVzLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7Q0FDQyxhQUFhO0NBQ2IsYUFBYTtBQUNkOztBQUVBO0NBQ0MsY0FBYztBQUNmOztBQUVBO0VBQ0UsYUFBYTtFQUNiLGFBQWE7RUFDYixrQkFBa0I7RUFDbEIsZ0JBQWdCO0VBQ2hCLHlCQUF5QjtFQUN6QixXQUFXO0VBQ1gsbUJBQW1CO0VBQ25CLGdCQUFnQjtFQUNoQixvQ0FBb0M7RUFDcEMsNEJBQTRCO0VBQzVCLDRCQUE0QjtBQUM5Qjs7QUFDQTtDQUNDLGFBQWE7RUFDWixZQUFZO0VBQ1osWUFBWTtDQUNiLHVCQUF1QjtBQUN4Qjs7QUFHQTtFQUNFO0lBQ0UsZUFBZTtJQUNmLHFCQUFxQjtJQUNyQixpQkFBaUI7SUFDakIsUUFBUTtFQUNWO0FBQ0YiLCJmaWxlIjoic3JjL2FwcC9hYm91dHVzL2Fib3V0dXMuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5tYXB7XHJcblx0cGFkZGluZzogMTBlbTtcclxuXHRoZWlnaHQ6IDEwMHB4O1xyXG59XHJcblxyXG5we1xyXG5cdGNvbG9yOiAjMDY1YzZmO1xyXG59XHJcblxyXG4uYWJvdXQtc2VjdGlvbiB7XHJcbiAgcGFkZGluZzogNTBweDtcclxuICBoZWlnaHQ6IDQwMHB4O1xyXG4gIHBhZGRpbmctdG9wOiAyMDBweDtcclxuICB0ZXh0LWFsaWduOiBsZWZ0O1xyXG4gIGJhY2tncm91bmQtY29sb3I6ICM0NzRlNWQ7XHJcbiAgY29sb3I6YmxhY2s7XHJcbiAgZm9udC13ZWlnaHQ6IGJvbGRlcjtcclxuICBtYXJnaW4tdG9wOiAxMnB4O1xyXG4gIGJhY2tncm91bmQtaW1hZ2U6ICB1cmwoc25vd3Bsb3cuanBnKTtcclxuICBiYWNrZ3JvdW5kLXJlcGVhdDogbm8tcmVwZWF0O1xyXG4gIGJhY2tncm91bmQtc2l6ZTogMTAwJSAgNDAwcHg7ICAgXHJcbn1cclxuaW1ne1xyXG5cdGhlaWdodDogMzAwcHg7XHJcbiAgd2lkdGg6IDMyMHB4O1xyXG4gIG1hcmdpbjogMTBweDtcclxuXHRib3JkZXI6IDJweCBzb2xpZCBibGFjaztcclxufVxyXG5cclxuXHJcbkBtZWRpYSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDYwMHB4KSB7XHJcbiAgLm1hcC1yZXNwb25zaXZle1xyXG4gICAgb3ZlcmZsb3c6aGlkZGVuO1xyXG4gICAgcGFkZGluZy1ib3R0b206NTYuMjUlO1xyXG4gICAgcG9zaXRpb246cmVsYXRpdmU7XHJcbiAgICBoZWlnaHQ6MDtcclxuICB9XHJcbn1cclxuXHJcblxyXG5cclxuIl19 */"] });
+    } }, styles: [".map[_ngcontent-%COMP%]{\r\n\tpadding: 10em;\r\n\theight: 100px;\r\n}\r\n\r\np[_ngcontent-%COMP%]{\r\n\tcolor: #065c6f;\r\n}\r\n\r\n.about-section[_ngcontent-%COMP%] {\r\n  padding: 50px;\r\n  height: 400px;\r\n  padding-top: 200px;\r\n  text-align: left;\r\n  background-color: #474e5d;\r\n  color:black;\r\n  font-weight: bolder;\r\n  margin-top: 12px;\r\n  background-image:  url('Snowplow.jpg');\r\n  background-repeat: no-repeat;\r\n  background-size: 100%  400px;   \r\n}\r\n\r\nimg[_ngcontent-%COMP%]{\r\n\theight: 300px;\r\n  width: 320px;\r\n  margin: 10px;\r\n\tborder: 2px solid black;\r\n}\r\n\r\n@media screen and (max-width: 600px) {\r\n  .map-responsive[_ngcontent-%COMP%]{\r\n    overflow:hidden;\r\n    padding-bottom:56.25%;\r\n    position:relative;\r\n    height:0;\r\n  }\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYWJvdXR1cy9hYm91dHVzLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7Q0FDQyxhQUFhO0NBQ2IsYUFBYTtBQUNkOztBQUVBO0NBQ0MsY0FBYztBQUNmOztBQUVBO0VBQ0UsYUFBYTtFQUNiLGFBQWE7RUFDYixrQkFBa0I7RUFDbEIsZ0JBQWdCO0VBQ2hCLHlCQUF5QjtFQUN6QixXQUFXO0VBQ1gsbUJBQW1CO0VBQ25CLGdCQUFnQjtFQUNoQixzQ0FBdUQ7RUFDdkQsNEJBQTRCO0VBQzVCLDRCQUE0QjtBQUM5Qjs7QUFDQTtDQUNDLGFBQWE7RUFDWixZQUFZO0VBQ1osWUFBWTtDQUNiLHVCQUF1QjtBQUN4Qjs7QUFHQTtFQUNFO0lBQ0UsZUFBZTtJQUNmLHFCQUFxQjtJQUNyQixpQkFBaUI7SUFDakIsUUFBUTtFQUNWO0FBQ0YiLCJmaWxlIjoic3JjL2FwcC9hYm91dHVzL2Fib3V0dXMuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5tYXB7XHJcblx0cGFkZGluZzogMTBlbTtcclxuXHRoZWlnaHQ6IDEwMHB4O1xyXG59XHJcblxyXG5we1xyXG5cdGNvbG9yOiAjMDY1YzZmO1xyXG59XHJcblxyXG4uYWJvdXQtc2VjdGlvbiB7XHJcbiAgcGFkZGluZzogNTBweDtcclxuICBoZWlnaHQ6IDQwMHB4O1xyXG4gIHBhZGRpbmctdG9wOiAyMDBweDtcclxuICB0ZXh0LWFsaWduOiBsZWZ0O1xyXG4gIGJhY2tncm91bmQtY29sb3I6ICM0NzRlNWQ7XHJcbiAgY29sb3I6YmxhY2s7XHJcbiAgZm9udC13ZWlnaHQ6IGJvbGRlcjtcclxuICBtYXJnaW4tdG9wOiAxMnB4O1xyXG4gIGJhY2tncm91bmQtaW1hZ2U6ICB1cmwoXCIuLi8uLi9hc3NldHMvaW1nL1Nub3dwbG93LmpwZ1wiKTtcclxuICBiYWNrZ3JvdW5kLXJlcGVhdDogbm8tcmVwZWF0O1xyXG4gIGJhY2tncm91bmQtc2l6ZTogMTAwJSAgNDAwcHg7ICAgXHJcbn1cclxuaW1ne1xyXG5cdGhlaWdodDogMzAwcHg7XHJcbiAgd2lkdGg6IDMyMHB4O1xyXG4gIG1hcmdpbjogMTBweDtcclxuXHRib3JkZXI6IDJweCBzb2xpZCBibGFjaztcclxufVxyXG5cclxuXHJcbkBtZWRpYSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDYwMHB4KSB7XHJcbiAgLm1hcC1yZXNwb25zaXZle1xyXG4gICAgb3ZlcmZsb3c6aGlkZGVuO1xyXG4gICAgcGFkZGluZy1ib3R0b206NTYuMjUlO1xyXG4gICAgcG9zaXRpb246cmVsYXRpdmU7XHJcbiAgICBoZWlnaHQ6MDtcclxuICB9XHJcbn1cclxuXHJcblxyXG5cclxuIl19 */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](AboutusComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
