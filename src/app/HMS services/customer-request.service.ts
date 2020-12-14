@@ -9,7 +9,7 @@ import { catchError, map, retry } from 'rxjs/operators';
 })
 export class CustomerRequestService {
 
-  private url = 'http://localhost:3000';
+  private url = 'https://hmsdata.herokuapp.com/';
 
   constructor(private http: HttpClient) { }
 
