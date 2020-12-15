@@ -13,17 +13,18 @@ export class PaymentComponent implements OnInit {
     window.paypal.Buttons(
       {
         style: {
-          layout: 'horizontal',
-          color: 'blue',
-          shape: 'rect',
-          lable: 'paypal'
+          layout: 'vertical',
+          color: 'gold',
+          shape: 'pill',
+          lable: 'paypal',
+          size: 'responsive'
           },
         createOrder: (data, actions) =>{
           return actions.order.create({
             purchase_units: [
               {
                 amount: {
-                  value: '1000',
+                  value: '100',
                   currency_code: 'USD'
                 }
               }

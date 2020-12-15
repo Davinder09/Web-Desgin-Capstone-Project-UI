@@ -159,9 +159,10 @@
     <div *ngIf="gardenRef.errors && (gardenRef.dirty || gardenRef.touched)" class="alert alert-danger"></div>
     <label for="defaultCheck"> &nbsp; Indoor cleaning </label>
     <br>
+    <p>Booking fee is $100.</p>
   </div>
         
-		<button [disabled]="!requestForm.form.valid" type="submit" (click)="customerData(requestForm.value)">Submit</button>
+		<button [disabled]="!requestForm.form.valid" type="submit" (click)="customerData(requestForm.value)">Submit and Pay</button>
 	  </form> 
 </div>
 </section>  
