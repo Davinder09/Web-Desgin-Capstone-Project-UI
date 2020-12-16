@@ -1,1 +1,10 @@
-/*    /index.html   200
+
+https://friendly-chandrasekhar-3b5abe.netlify.app https://friendly-chandrasekhar-3b5abe.netlify.app 301!
+https://friendly-chandrasekhar-3b5abe.netlify.app/* https://friendly-chandrasekhar-3b5abe.netlify.app/:splat 301!
+
+/dashboard  /dashboard 301
+/dashboard /dashboard.html 200
+/employee  /employee 301
+/employee /employee.html 200
+/addEmployee /addEmployee 301
+/addEmployee /addEmployee.html 200
