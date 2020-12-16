@@ -27,7 +27,7 @@ export class EmployeeComponent implements OnInit {
   deleteEmployee(employeeid){
     this.employeeService.deleteEmployeeById(employeeid).subscribe(result => {
       alert("Employee Deleted Sucessfully");
-      this.router.navigateByUrl('/service');
+      this.router.navigateByUrl('/dashboard');
     }, error => {
       console.log('error is ', error);
     });
