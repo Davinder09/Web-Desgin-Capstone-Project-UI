@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { EmployeeServiceService } from '../HMS services/employee-service.service';
 import { Employee } from '../model/employee';
-import { Router } from '@angular/router';
+import { Router, NavigationEnd } from '@angular/router';
 
 @Component({
   selector: 'app-employee',
@@ -27,10 +27,7 @@ export class EmployeeComponent implements OnInit {
   deleteEmployee(employeeid){
     this.employeeService.deleteEmployeeById(employeeid).subscribe(result => {
       alert("Employee Deleted Sucessfully");
-      this.router.navigate(['/employee'])
-                    .then(() => {
-                      window.location.reload();
-                    });
+      this.router.navigateByUrl('/service');
     }, error => {
       console.log('error is ', error);
     });
